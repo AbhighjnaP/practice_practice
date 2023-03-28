@@ -1,0 +1,10 @@
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
+
+body{
+    background-color: gold;
+}

@@ -1,0 +1,23 @@
+nav{
+    height: 80px;
+    width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+body{
+    background-color:yellow;
+}
+p1 {
+    position: fixed;
+    bottom: 10%;
+    right: 20px;
+  }
+
+  button {
+    position: fixed;
+    bottom: 5%;
+    right: 20px;
+  }
