@@ -1,3 +1,7 @@
+h2{
+    font-family: cursive;
+}
+
 .container {
     position: absolute;
     top: 60%;
@@ -19,16 +23,16 @@
     overflow-anchor: none;
   }
 div.featured-stories{
-    background-color:aqua;
+    background-color:white;
     height: 40px;
     width: 200px;
-    overflow-y: scroll;
+    overflow-y:scroll;
     top: 50%;
 }
 div.featured-stories{
     width: 300px;
     height: 300px;
-    border: 1px solid blue;
+    border: 1px solid black;
 }
 .scroll-content{
     height: 100%;
@@ -36,7 +40,7 @@ div.featured-stories{
   }
   
 div.Mentoon-stories{
-    background-color:aqua;
+    background-color:white;
     height: 40px;
     width: 200px;
     overflow-y: scroll;
@@ -44,10 +48,10 @@ div.Mentoon-stories{
 div.Mentoon-stories{
     width: 300px;
     height: 200px;
-    border: 1px solid blue;
+    border: 1px solid black;
 }
 div.Mentoon-TV{
-    background-color: aqua;
+    background-color: white;
     height: 40px;
     width: 200px;
     overflow-y: scroll;
@@ -55,7 +59,7 @@ div.Mentoon-TV{
 div.Mentoon-TV{
     width: 300px;
     height: 200px;
-    border: 1px solid blue;
+    border: 1px solid black;
 }
    
 *{
@@ -112,22 +116,26 @@ body{
 
 .featured-stories {
     float: right;
+    font-family: sans-serif;
 }
 .Mentoon-stories{
     float: right;
+    font-family: sans-serif;
 }
 .Mentoon-TV{
     float: right;
+    font-family: sans-serif;
 }
 
 marquee {
-    font-family: cursive;
+    font-family:sans-serif;
     font-size: 48px;
     position: fixed;
     top: 30%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
+    color: rgb(230, 151, 151);
   }
   
 
