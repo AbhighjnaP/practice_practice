@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .form-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  .tip-jar{
+    text-align: right;
+    margin-right: 0;
+  }
