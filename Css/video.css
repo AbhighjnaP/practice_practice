@@ -1,0 +1,160 @@
+
+.semicircle {
+  background-color:orangered;
+  border-radius: 0 0 50% 50%;
+  border-bottom: 2px solid #000;
+  padding: 30px 0;
+  text-align: center;
+  color:white;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+body{
+  background-color: yellow;
+  font-family: sans-serif;
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid{
+  display: flex;
+}
+
+.row {
+  flex-basis: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-size: cover;
+  position: relative;
+  opacity: 0.75; /* change color and opacity as desired */
+}
+
+/*.row:nth-child(odd) {
+  background-image: url(https://r.aboutmybrain.com/hubfs/_hero-image-The%20Dark%20and%20Lonely%20World%20of%20Depression.jpg);
+}
+
+.row:nth-child(even) {
+  background-image: url();
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(241, 99, 99, 0.5);
+}*/
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-family: sans-serif;
+}
+ a {
+  text-decoration: none;
+}
+
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+button.learn-more {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.row:nth-child(1) {
+  background-color:rgb(1, 1, 126);
+  background-image: url();
+}
+
+.row:nth-child(2) {
+  background-color: rgb(233, 14, 14);
+}
+
+.row:nth-child(3) {
+  background-color: rgb(234, 223, 9);
+}
+
+.row:nth-child(4) {
+  background-color: rgb(255, 140, 0);
+}
+
+.row:nth-child(5) {
+  background-color: rgb(89, 255, 0);
+}
+.content-Relaxation {
+  color: white;
+}
+
+.content-Art{
+  color: white;
+}
+
+.content-aroma{
+  color: white;
+}
+
+.content-goal{
+
+  color: white;
+}
+
+.content-values {
+
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* optional: set the height of the container to the full viewport height */
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+.container {
+  width: 100%;
+  overflow: hidden; /* prevent container from collapsing */
+  margin-right: 0%;
+}
+
+.posters {
+  float: right;
+  width: 300px; /* set a width to allow for float */
+  margin-left: 20px;
+}
+
+.poster {
+  margin-bottom: 20px;
+}
+
+.clear {
+  clear: both; /* clear any floated elements */
+}
+.container1 {
+  text-align: center;
+  margin-left: 30%;
+}
+
+
+
