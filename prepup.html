@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Prep-up page</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="./Css/prep-up.css">
+
+    </head>
+    <body>
+      <header>
+       
+          <!--div class="banner">
+            <p>Stories based workshops</p>
+            <button>Know more</button>
+          </div-->
+
+      </header>
+      <!--header><img src="./Images/Untitled-Artwork.jpg"></header-->
+    
+        <h1>Prep-up page</h1>
+    <main>
+    <div class="grid-container">
+    <div><h2>Prep-up</h2><br>
+      <img src="./Images/Prep-up (1)_page-0001.jpg" width="50%" height="50%"><br><br><br>
+      <button onclick="openDemo()">Know more</button>
+    </div>
+    <div><h2>Speak-easy</h2><br>
+      <img src="/Images/Exterior--removebg-preview.png" width="50%" height="50%"><br><br>
+      <h3>consulting coaching services</h3>
+      <button id="schedule-button">Schedule a call
+        <p>15mins complementary call </p> </button><br>
+
+      <div id="schedule-form" style="display:none;">
+        <!---form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <br>
+          <input type="submit" value="Submit">
+        </form-->
+
+      </div>
+      <div id="schedule-form">
+        <div class="calendly-inline-widget" data-url="https://calendly.com/anuchandavarkar738" style="min-width:320px;height:400px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+      </div>
+      <button onclick="showTable()">Browse package</button>
+      <div style="display: flex; flex-direction: row;">
+        <table id="myTable" style="display:none;">
+          <tr>
+            <th>7days</th>
+            <th>15days</th>
+            <th>30days</th>
+          </tr>
+          <tr>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+          </tr>
+          <tr>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+          </tr>
+        </table>
+      
+<div id="subscription">
+  <div style="display: none;" id="plan-selection">
+    <p>Please select a plan:</p>
+    <ul>
+      <li><button class="plan-button" data-plan="7days">7 days</button></li>
+      <li><button class="plan-button" data-plan="15days">15 days</button></li>
+      <li><button class="plan-button" data-plan="30days">30 days</button></li>
+    </ul>
+  </div>
+  <button id="buy-button">Buy plan</button>
+</div>
+</main>     
+      <script src="./js/prep-up.js"></script>
+      <script src="./js/prep-view.js"></script>
+      
+    </div>
+  </div>
+  
+     <!--div class="image">
+    <div class="text">
+      <h1 style="font-size:50px">Mentoons</h1>
+      <p>Poster</p>
+      <p>Upgrade to prep-up plus</p>
+      <button>Read more</button>
+    </div--->
+  </div>
+    </body>
+</html>
