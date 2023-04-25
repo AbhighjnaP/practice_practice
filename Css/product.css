@@ -1,0 +1,130 @@
+.circle-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    justify-content: center;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  .paragraph1 {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: -150px;
+    font-family: sans-serif;
+    font-size: 25px;
+  }
+  
+  
+  .blue {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    background-color: blue;
+    position: relative;
+  }
+  
+  .blue .paragraph2 {
+    position: absolute;
+    bottom: -40%;
+    width: 100%;
+    text-align: center;
+    color: black;
+  }
+  
+  .paragraph2 {
+    margin-top: 10px;
+    text-align: center;
+    bottom: -40%;
+    width: 100%;
+    text-align: center;
+    color: black;
+  }
+  
+  .paragraph2 ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+
+ 
+
+
+/*.circle-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+.paragraph1 {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+  }
+  .blue {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    background-color: blue;
+    position: relative; /* Add position: relative to the circle element */
+  
+  
+ /* .blue .paragraph2 {
+    position: absolute;
+    bottom: -40%;
+    width: 100%;
+    text-align: center;
+    color: black;
+  }
+  .paragraph2 {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .paragraph2 ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }*/

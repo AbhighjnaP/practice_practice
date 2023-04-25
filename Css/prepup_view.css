@@ -1,0 +1,136 @@
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    bottom: 20%;/* adjust this value to move the price up or down */
+  }
+  
+.product img {
+    width: 30%;
+    height: 30%;
+    margin-right: 10px; /* change from 30px to 10px */
+    float: left; /* change from right to left */
+    margin-bottom: 30px;
+  }  
+.product .price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-right: 10px;
+    bottom: 20%;
+  }
+  
+p {
+    float: left;
+    width: 30%;
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-size:medium;
+    color: white;
+    margin-left:25px;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    font-size: xx-large;
+    margin-top: 5%;
+    margin-left:25px;
+    color: beige;
+  }
+  
+  body {
+    background: rgb(0, 0, 255);
+  }
+  
+  .price del {
+    color: rgb(60, 59, 59); /* or any other color you prefer */
+  }
+  
+  .price span {
+    color: red;
+  }
+  
+  .rating {
+    position: relative;
+    bottom: 0;
+    margin-top: 10px;
+  }
+  
+  .shareBtn {
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgb(30, 0, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .stars {
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+  }
+  
+  .star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    background: url('/Images/download__2_-removebg-preview.png') 0 0 no-repeat;
+    background-size: contain;
+  }
+  
+  /*.button-container {
+    margin-top: 20px;
+    float: right;
+    margin-right: 26%;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    margin-right:30%
+}*/
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 24%;  /* change this value to move the buttons to the right */
+    font-size: smaller;
+}
+  
+  .button-container button {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: rgb(157, 255, 0);
+    color: white;
+    cursor: pointer;
+    font-size: smaller;
+    font-family: sans-serif;
+
+  }
+  
+  .button-container button:first-child {
+    margin-left:auto;
+    margin-right: 10px;
+  }
+  .image-container {
+    margin-bottom: 10px;
+}
+.price{
+    color: white;
+}
