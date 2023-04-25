@@ -1,0 +1,20 @@
+.form-container {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+  }
+header{
+    text-align: center;
+}  
+body{
+    background-color:orange;
+    font-family: sans-serif;
+}
+.button2 {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
