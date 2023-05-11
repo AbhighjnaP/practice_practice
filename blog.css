@@ -1,0 +1,123 @@
+header {
+  display: flex;
+  align-items: center;
+
+}
+h1 {
+  display:flex; 
+  justify-content:center;
+  align-items:center;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.logo {
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.logo img {
+  width: 30%;
+  height: auto; /* Keep aspect ratio */
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.grid-item{
+  padding: 10px;
+  width: 50%;
+  margin-left: 30px;
+  border: 1px solid black;
+}
+
+.full-content {
+  display: none;
+}
+
+.read-more {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.download {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.grid-container {
+    display:grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:auto auto auto;
+    grid-gap :10px;
+ }
+
+
+.poster {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .quiz {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+.collapsible-content {
+  display: none;
+}
+.collapsible-content p {
+  margin: 0;
+}
+.grid-container1 {
+  float: right;
+  margin-right: 10px;
+  margin-left: 80%;
+  margin-top: 10px;
+  gap: 10px;
+}
+/* Media Query for Mobile Version */
+
+@media only screen and (max-width: 600px) {
+  .logo img {
+    width: 100%;
+    max-width: 200px; /* Adjust as needed */
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-item {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .grid-container1 {
+    float: none;
+    margin: 10px auto;
+  }
+}

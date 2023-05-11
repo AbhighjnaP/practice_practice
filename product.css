@@ -1,0 +1,61 @@
+.circle-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.paragraph1 {
+  margin-top: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.blue .paragraph2 {
+  position: static;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.paragraph2 {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.paragraph2 ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}

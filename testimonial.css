@@ -1,0 +1,119 @@
+
+/* Set the height of the section to fit the content */
+/*section {
+  height: auto;
+  overflow: hidden;
+}
+
+/* Center the Swiper container */
+/*.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Style the testimonial slides */
+/*.swiper-slide {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* Style the profile pictures */
+/*.testimonial img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Style the testimonial text */
+/*.testimonial p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.testimonial strong {
+  font-weight: bold;
+}
+
+/* Style the pagination bullets */
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #ccc;
+  opacity: 1;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #666;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.testimonial {
+  position: relative;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.testimonial img {
+  float: none;
+  margin-right: 0;
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.testimonial .name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.testimonial .position {
+  font-style: italic;
+  color: #555;
+}
+
+.testimonial:before {
+  content: "\201C";
+  font-size: 30px;
+  color: #ccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.swiper-container {
+  height: auto;
+  width: 100%;
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+body {
+  overflow: auto;
+}

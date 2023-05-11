@@ -1,0 +1,62 @@
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+.collapsible-header {
+    cursor: pointer;
+  }
+  
+  .collapsible-content {
+    display: none;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+  }
+  
+  .contact-info {
+    margin: right;
+  }
+  /* For screens up to 768px width (mobile devices) */
+@media (max-width: 768px) {
+  .collapsible {
+    font-size: 14px; /* Adjust the font size for mobile */
+  }
+
+  .collapsible-header {
+    cursor: pointer;
+    padding: 12px; /* Adjust the padding for mobile */
+  }
+
+  .collapsible-content {
+    display: none;
+    padding: 10px; /* Adjust the padding for mobile */
+    font-size: 14px; /* Adjust the font size for mobile */
+  }
+
+  footer {
+    padding: 5px; /* Adjust the padding for mobile */
+    flex-direction: column; /* Stack the contact info below the footer content */
+    align-items: flex-start; /* Align the contact info to the left */
+  }
+
+  .contact-info {
+    margin-right: 0; /* Remove margin for mobile */
+    margin-top: 10px; /* Add some margin top for mobile */
+  }
+}

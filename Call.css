@@ -1,0 +1,21 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the container to fill the entire viewport */
+}
+
+form {
+  /* Optional: set a width for the form */
+  width: 400px;
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 20px; /* Add some padding to the container for better spacing */
+  }
+
+  form {
+    width: 100%; /* Make the form take up the full width of the container */
+  }
+}

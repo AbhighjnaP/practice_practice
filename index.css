@@ -1,0 +1,417 @@
+/*h2{
+    font-family:sans-serif;
+}
+p{
+    color: beige;
+    margin-top: 10%;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 24px;
+}
+
+
+.container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    overflow-y: scroll; /* Add a scrollbar when necessary 
+  }
+  
+  div.featured-stories {
+    color: white;
+    background-color:red;
+    border: 1px solid black;
+    margin-top: 80%;
+    margin-right: 20px;
+    width: 330px;
+  }
+  
+  div.mentoons-tv {
+    /* Mentoons TV styles 
+    color: white;
+    background-color:orange;
+    border: 1px solid black;
+    margin-top: 100%;
+    margin-right: 20px;
+  }
+#container {
+    padding: 5px;
+    width: 300px;
+    aspect-ratio: 1;
+    border: solid black 2px;
+    overflow: scroll;
+    overflow-anchor: none;
+  }
+  /*
+div.featured-stories{
+    background-color:red;
+    height: 40px;
+    width: 10p;
+    overflow-y:auto;
+}
+.story-content {
+    display: flex; /* align content horizontally 
+    align-items: center; /* center vertically 
+    height: 100%; /* fill the container height 
+  }
+div.featured-stories{
+    margin-top: 0%;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.scroll-content{
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+div.Mentoon-stories{
+    background-color:orange;
+    height: 40px;
+    width: 200px;
+    overflow-y: scroll;
+}
+div.Mentoon-stories{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+div.Mentoon-TV{
+    background-color:yellow;
+    height: 40px;
+    width: 200px;
+    overflow-y: scroll;
+}
+div.Mentoon-TV{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+   
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(40, 40, 79);
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+iframe {
+    width: 40%;
+    height: 100%;
+    margin-right: 20px;
+  }
+
+
+  
+/*
+nav{
+    background: #0086e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform:uppercase;
+}
+a.active,a:hover{
+    background: black;
+    transition: .5s;
+}
+
+
+
+.featured-stories {
+    float: right;
+    font-family: sans-serif;
+
+}
+.Mentoon-stories{
+    float: right;
+    font-family: sans-serif;
+}
+.Mentoon-TV{
+    float: right;
+    font-family: sans-serif;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+.form{
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;
+}
+.form.signup{
+    opacity: 0;
+    pointer-events: none;
+}
+.forms.show-signup .form.signup{
+    opacity: 1;
+    pointer-events: auto;
+}
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
+}
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+}
+.form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+.field button{
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button:hover{
+    background-color: #016dcb;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.facebook{
+    color: #fff;
+    background-color: #4267b2;
+}
+a.facebook .facebook-icon{
+    height: 28px;
+    width: 28px;
+    color: #0171d3;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.facebook-icon,
+img.google-img{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+.img-google-img{
+    height: 16px;
+    width: 16px;
+    object-fit: cover;
+}
+a.google{
+    border: 1px solid #CACACA;
+}
+a.google span{
+    font-weight: 500;
+    opacity: 0.6;
+    color: #232836;
+}
+@media screen and (max-width: 400px) {
+    .form{
+        padding: 20px 10px;
+       }
+    
+}
+marquee {
+    font-family:sans-serif;
+    font-size: 40px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: rgb(251, 241, 241);
+}
+  
+  .right-side {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px; /* adjust this as needed */
+    margin-right: 10px;
+    margin-top: 30%;
+  }
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Set the height to match the width */
+
+}
+  
+.grid-item {
+    width: calc(50% - 10px); /* Set the width to 50% minus the margin */
+    height: calc(50% - 10px); /* Set the height to 50% minus the margin */
+    margin: 5px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 30px;
+  }
+
+ body{
+  background-image: url(/Images/WhatsApp\ Image\ 2023-04-27\ at\ 12.48.41\ PM.jpeg);
+ }
+
+ .intro-text {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  float: right;
+  margin-right: 30px;
+}
+
+.button-container {
+  display: block;
+  margin-top: 10px;
+}
+
+.button {
+  margin-left: 10px;
+}
+.button,a {
+  display: inline-block;
+  padding: 10px 10px;
+  color:black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .form-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  .tip-jar{
+    text-align: right;
+    margin-right: 0;
+
+  }
+  /* For screens up to 768px width (mobile devices) */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px; /* Add some horizontal padding to the container for mobile */
+  }
+
+  .form-container {
+    margin-top: 20px; /* Adjust the margin-top for mobile */
+  }
+
+  .tip-jar {
+    text-align: center; /* Center-align the tip jar for mobile */
+    margin-right: 0; /* Reset the margin-right for mobile */
+  }
+}

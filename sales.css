@@ -1,0 +1,93 @@
+body{
+  background-color: rgb(241, 235, 57);
+}
+header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .logo img {
+    width: 30%;
+    height: auto; /* Keep aspect ratio */
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .box {
+    width: 300px; /*width of the box*/
+    height: 200px;/* height of the box*/
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .box a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .box img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: black;
+  }
+
+  h3, p{
+    margin-left: 120px;
+    gap: 0;
+  }
+
+  .preview-button {
+    display: block;
+    margin: 50px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .preview-button:hover {
+    background-color: #3e8e41;
+  }
+
+  .back-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* creates three columns with equal width */
+    grid-gap: 50px; /* adds spacing between the boxes */
+  }
+  @media (min-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
