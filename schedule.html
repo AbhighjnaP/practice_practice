@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Schedule call</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="">
+
+    </head>
+    <body>
+      <center><h3>Schedule call</h3></center>
+        <div id="schedule-form">
+            <div class="calendly-inline-widget" data-url="https://calendly.com/anuchandavarkar738" style="min-width:320px;height:400px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+          </div>
+        
+      <div id="schedule-form" style="display:none;">
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <br>
+          <input type="submit" value="Submit">
+        </form-->
+
+      </div>
+      <div class="image-container">
+        <div class="table-container">
+          <button onclick="showTable()">Browse package</button>
+        </div>
+    
+            <table id="myTable" style="display:none;">
+              <tr>
+                <th>7days</th>
+                <th>15days</th>
+                <th>30days</th>
+              </tr>
+              <tr>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>   
+           
+    <div id="subscription">
+      <div style="display: none;" id="plan-selection">
+        <p>Please select a plan:</p>
+        <ul>
+          <li><button class="plan-button" data-plan="7days">7 days</button></li>
+          <li><button class="plan-button" data-plan="15days">15 days</button></li>
+          <li><button class="plan-button" data-plan="30days">30 days</button></li>
+        </ul>
+      </div>
+      <button id="buy-button">Buy plan</button>
+    </div>   
+    </body>
+    <script src="./js/prep-up.js"></script>
+</html>

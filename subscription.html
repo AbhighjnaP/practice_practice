@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription form</title>
+    <link rel="stylesheet" href="./Css/subscription.css"> 
+
+</head>
+<body>
+    <main>
+    <div class="container">
+        <section class="title">
+        <img src="./Images/final logo-01 (1).png" alt=""></section>
+      <form id="Mentoons form">
+        <div class="content">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details" id="name">Full Name</span>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" id="emailid" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="tel" id="contactNo" placeholder="Enter your number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Whatsapp Number</span>
+                        <input type="tel" id="contactNo" placeholder="Enter your whatsapp number">
+                        <br>
+                        <input type="checkbox" id="number" name="Whatsapp number">
+                        <label for="number"> Same as Phone number</label>
+                    </div>
+                    <div>
+                        <h3><i>Message</i></h3>
+                    <textarea name="message" rows="10" cols="30" placeholder="Write your comments"></textarea>
+                    </div>
+                </div>
+
+                <div>
+                    <button class="button" onclick="submit"><b>Submit</b></button>
+                    <button class="button" onclick="cancel"><b>Cancel</b></button>
+                 </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

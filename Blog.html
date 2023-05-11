@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog page</title>
+    <link rel="stylesheet" href="./Css/blog.css">
+</head>
+<body>
+  <header><img src="/Images/final logo-01 (1).png" width="20%" height="20%">
+  <h1>Blog page</h1>
+</header>
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <h2>Staying Sober!</h2>
+      <button class="read-more" onclick="toggleCollapsible(this)">Read more</button>
+      <div class="collapsible-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae suscipit magna, vel ultricies arcu. Donec eget semper sapien. Suspendisse fermentum justo at enim convallis facilisis. Aliquam erat volutpat. Donec auctor arcu sed lectus interdum sodales. In hac habitasse platea dictumst. Sed consectetur mi in diam auctor, id malesuada metus vehicula. Quisque efficitur, lacus vitae blandit mollis, enim ante elementum libero, quis suscipit arcu libero vel quam. Vivamus id augue risus. </p>
+      </div>
+    </div>
+    
+    <div class="grid-item">
+      <h2>Coping with loss</h2>
+      <button class="read-more" onclick="toggleCollapsible(this)">Read more</button>
+      <div class="collapsible-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae suscipit magna, vel ultricies arcu. Donec eget semper sapien. Suspendisse fermentum justo at enim convallis facilisis. Aliquam erat volutpat. Donec auctor arcu sed lectus interdum sodales. In hac habitasse platea dictumst. Sed consectetur mi in diam auctor, id malesuada metus vehicula. Quisque efficitur, lacus vitae blandit mollis, enim ante elementum libero, quis suscipit arcu libero vel quam. Vivamus id augue risus. </p>
+      </div>
+    </div>
+    <div class="grid-item">
+      <h2>Resolve your anxiety!</h2>
+      <button class="read-more" onclick="toggleCollapsible(this)">Read more</button>
+      <div class="collapsible-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae suscipit magna, vel ultricies arcu. Donec eget semper sapien. Suspendisse fermentum justo at enim convallis facilisis. Aliquam erat volutpat. Donec auctor arcu sed lectus interdum sodales. In hac habitasse platea dictumst. Sed consectetur mi in diam auctor, id malesuada metus vehicula. Quisque efficitur, lacus vitae blandit mollis, enim ante elementum libero, quis suscipit arcu libero vel quam. Vivamus id augue risus. </p>
+      </div>
+    </div>
+    <div class="grid-item">
+      <h2>Change your life style</h2>
+      <button class="read-more" onclick="toggleCollapsible(this)">Read more</button>
+      <div class="collapsible-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae suscipit magna, vel ultricies arcu. Donec eget semper sapien. Suspendisse fermentum justo at enim convallis facilisis. Aliquam erat volutpat. Donec auctor arcu sed lectus interdum sodales. In hac habitasse platea dictumst. Sed consectetur mi in diam auctor, id malesuada metus vehicula. Quisque efficitur, lacus vitae blandit mollis, enim ante elementum libero, quis suscipit arcu libero vel quam. Vivamus id augue risus. </p>
+      </div>
+    </div>
+    <div class="grid-item">
+      <h2>Restful nights just a step away!<br>
+      Unwind your stressful stories to calm you</h2>
+      <audio controls>
+        <source src="your-audio-file.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="grid-item">
+      <h2>Leave us a Review!</h2>
+      <button class="read-more" onclick="document.getElementById('review-form').style.display = 'block'">Review</button>
+      <form id="review-form" style="display:none;">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <!--input type="email" id="email" name="email"><br>
+        <label for="rating">Rating:</label-->
+        <input type="number" id="rating" name="rating" min="1" max="5"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+        <button type="submit">Submit Review</button>
+      </form>
+    </div>
+      <!--div class="grid-container1">
+        <div class="grid-item">
+          <h2>Take the depression test</h2>
+          <img src="./Images/Questionnaire_Banner2.jpg" alt="" width="50%" height="50%"><br>
+          <button class="quiz">Take test</button>
+        </div><br>
+        <div class="grid-item">
+          <h2>Download self starter guide</h2>
+          <p>100% free</p>
+          <a href="./path/to/your/file.pdf" download="filename.pdf" id="download-link" style="display:none;">Download</a>
+          <button class="download" onclick="downloadFile()">Download</button>
+        </div><br>
+        <div class="grid-item">
+          <h2>Relapse prevention plan</h2>
+          <button class="read-more">Browse plans</button>
+        </div><br>
+        <div class="grid-item">
+          <h2>I knew it! Did I?</h2>
+          <img src="./Images/Quiz.jfif" alt="" width="50%" height="50%"><br>
+          <button class="quiz">Quiz</button>
+        </div>
+      </div-->
+  </div>
+     <div class="grid-container1">
+          <div class="poster">
+            <h2>Take the depression test</h2>
+            <img src="./Images/Questionnaire_Banner2.jpg" alt="" width="30%" height="30%"><br>
+            <button class="quiz">Take test</button>
+          </div>
+        
+          <div class="poster">
+            <h2>Download self starter guide</h2>
+            <p>100% free</p>
+           <a href="./path/to/your/file.pdf" download="filename.pdf" id="download-link" style="display:none;">Download</a>
+            <button class="download" onclick="downloadFile()">Download</button>
+          </div>
+        
+          <div class="poster">
+            <h2>Relapse prevention plan</h2>
+            <button class="read-more">Browse plans</button>
+          </div>
+        
+          <div class="poster">
+            <h2>I knew it! Did I?</h2>
+            <img src="./Images/Quiz.jfif" alt="" width="50%" height="50%"><br>
+            <button class="quiz">Quiz</button>
+          </div>
+        </div>
+</div>
+  
+
+      
+</body>
+<script src="./js/blog.js"></script>
+</html>
